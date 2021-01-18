@@ -27,6 +27,15 @@ $(function(){
 });
 } 
 
+function mcc2(){
+let changetomcc = document.getElementById('content');
+document.getElementById("title").innerHTML = "MCC - Schema";
+
+$(function(){
+  $("#content").load("mcc2.html"); 
+});
+} 
+
 function brushless(){
 let changetomcc = document.getElementById('content');
 document.getElementById("title").innerHTML = "Brushless";
@@ -62,7 +71,7 @@ $(function(){
 <div id="header"></div>
 
 
-<div class="container">
+  <div class="container"><br>
   	<div id="content">	
     </div>
 </div>
